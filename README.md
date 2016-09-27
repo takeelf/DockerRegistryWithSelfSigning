@@ -34,5 +34,10 @@ cp /path/../../domain.crt /etc/docker/certs.d/domain:5000/domain.crt
 service docker restart
 ```
 
+6. Docker login
+```
+docker login domain:5000
+```
+
 
 
